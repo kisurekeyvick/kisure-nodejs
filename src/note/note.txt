@@ -1,0 +1,5 @@
+传统web
+    用户    ->     Nginx/Apache     ->      PHP/JSP/asp.net
+
+node
+    用户    ->     node

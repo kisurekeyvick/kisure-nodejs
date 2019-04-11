@@ -1,0 +1,11 @@
+{
+  "name": "kisure-nodejs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/kisurekeyvick/kisure-nodejs.git",
+  "author": "kisurekeyvick <zttaijue1207@163.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
