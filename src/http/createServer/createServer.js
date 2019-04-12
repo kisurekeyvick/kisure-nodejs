@@ -23,7 +23,7 @@ const server = http.createServer((req, res) => {
          * 
          * 此方法只能在消息上调用一次，并且必须在调用 response.end() 之前调用
          */
-        res.writeHead(200, {
+        res.writeHead(200, 'ok-kisure', {
             'Content-Type': 'text/html;charset=UTF8'
         });
         res.end('<p>kisure hello world,current url equal /</p>');
