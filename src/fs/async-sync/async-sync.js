@@ -27,6 +27,10 @@ function fsFunc(fileName, type = 'txt') {
             }
         
             resolve(data);
+            /**
+             * data
+             * data代表的是读取出来的文件的二进制数据
+             */
         });
     });
 }

@@ -21,4 +21,5 @@ const fs = require('fs');
 fs.stat(`${__dirname}/stat.json`, (err, stats) => {
     console.log(stats.isFile());    // 如果是文件返回 true，否则返回 false。
     console.log(stats.size);        // 返回文件的大小
+    console.log(states);
 });
