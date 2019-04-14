@@ -23,6 +23,10 @@ const server = http.createServer((req, res) => {
 
     // end 表示的是数据全部到达的时候（也就是说只存在一次触发）
     req.on('end', () => {
+        /**
+         * 当前data的值为：
+         * user=kisure&password=1234&content=hello+kisure
+         */
         console.log(`传输结束，传输的值为${result},总共传输了${count}次`);
     });
 });
