@@ -78,6 +78,12 @@ etag@~1.8.1:
   version "1.8.1"
   resolved "https://registry.yarnpkg.com/etag/-/etag-1.8.1.tgz#41ae2eeb65efa62268aebfea83ac7d79299b0887"
 
+express-static@^1.2.6:
+  version "1.2.6"
+  resolved "https://registry.yarnpkg.com/express-static/-/express-static-1.2.6.tgz#567aab6ba808386936b8c17bb0a90f6f61d0db4f"
+  dependencies:
+    mime2 latest
+
 express@^4.16.4:
   version "4.16.4"
   resolved "https://registry.yarnpkg.com/express/-/express-4.16.4.tgz#fddef61926109e24c515ea97fd2f1bdbf62df12e"
@@ -177,6 +183,10 @@ mime-types@~2.1.18:
   resolved "https://registry.yarnpkg.com/mime-types/-/mime-types-2.1.22.tgz#fe6b355a190926ab7698c9a0556a11199b2199bd"
   dependencies:
     mime-db "~1.38.0"
+
+mime2@latest:
+  version "0.0.9"
+  resolved "https://registry.yarnpkg.com/mime2/-/mime2-0.0.9.tgz#507e3b3b370deb947c3b47a4ff544c33b7e1a4eb"
 
 mime@1.4.1:
   version "1.4.1"

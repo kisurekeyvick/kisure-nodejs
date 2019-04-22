@@ -6,6 +6,7 @@
   "author": "kisurekeyvick <zttaijue1207@163.com>",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.16.4"
+    "express": "^4.16.4",
+    "express-static": "^1.2.6"
   }
 }
